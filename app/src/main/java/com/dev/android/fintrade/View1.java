@@ -23,7 +23,7 @@ public class View1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(View1.this,SignUp.class);
                 startActivity(intent);
-                finish();
+
             }
         });
     }
