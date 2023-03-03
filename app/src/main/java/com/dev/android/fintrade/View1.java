@@ -9,21 +9,29 @@ import android.widget.LinearLayout;
 
 public class View1 extends AppCompatActivity {
 
-    LinearLayout signup_btn;
+    LinearLayout rg_btn,lg_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view1);
 
-        signup_btn=findViewById(R.id.SignUp_btn);
+        rg_btn=findViewById(R.id.register_btn);
+        lg_btn=findViewById(R.id.login_btn);
 
-        signup_btn.setOnClickListener(new View.OnClickListener() {
+        rg_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(View1.this,SignUp.class);
                 startActivity(intent);
 
+            }
+        });
+        lg_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(View1.this,SignIn.class);
+                startActivity(intent);
             }
         });
     }

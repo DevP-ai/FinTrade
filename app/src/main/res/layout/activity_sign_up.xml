@@ -23,7 +23,7 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_17sdp"
                 android:gravity="center"
                 android:background="@drawable/txtview_design">
                 <EditText
@@ -42,13 +42,13 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:gravity="center"
                 android:background="@drawable/txtview_design">
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Your Name"
+                    android:hint="Gender"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:background="@null"
@@ -61,13 +61,13 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:gravity="center"
                 android:background="@drawable/txtview_design">
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Your Name"
+                    android:hint="DOB"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:background="@null"
@@ -80,13 +80,13 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:gravity="center"
                 android:background="@drawable/txtview_design">
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Your Name"
+                    android:hint="Place of Birth"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:background="@null"
@@ -99,13 +99,13 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:gravity="center"
                 android:background="@drawable/txtview_design">
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Your Name"
+                    android:hint="Do you have any Experience investing?"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:background="@null"
@@ -118,13 +118,13 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:gravity="center"
                 android:background="@drawable/txtview_design">
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Your Name"
+                    android:hint="Occupation"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:background="@null"
@@ -137,13 +137,31 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:gravity="center"
                 android:background="@drawable/txtview_design">
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Your Name"
+                    android:hint="Email"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@null"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:gravity="center"
+                android:background="@drawable/txtview_design">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contact Number"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:background="@null"
@@ -156,18 +174,49 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:gravity="center"
                 android:background="@drawable/txtview_design">
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Your Name"
+                    android:hint="Password"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:background="@null"
                     android:layout_marginStart="@dimen/_10sdp"
                     android:textAllCaps="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:gravity="center"
+                android:background="@drawable/txtview_design">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Re-Password"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@null"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/txtview_design">
+
             </LinearLayout>
 
             <LinearLayout
@@ -192,6 +241,31 @@
                     android:textSize="@dimen/_15sdp"/>
 
             </LinearLayout>
+            <LinearLayout
+                android:id="@+id/got_login"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="match_parent"
+                android:background="@drawable/txtview_design"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:backgroundTint="#11cf8f"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="@dimen/_40sdp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign In"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_15sdp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp"/>
 
         </LinearLayout>
 

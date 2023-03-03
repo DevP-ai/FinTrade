@@ -100,7 +100,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/SignUp_btn"
+        android:id="@+id/register_btn"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_width="match_parent"
         android:background="@drawable/txtview_design"
@@ -123,6 +123,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/login_btn"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_width="match_parent"
         android:background="@drawable/txtview_design"
